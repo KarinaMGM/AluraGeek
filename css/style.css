@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Press+Start+2P&display=swap');
+
+:root {
+    --cor-principal: #550160;
+    --cor-secundaria: #8c0375;
+    --cor-hover: #c004d9;
+
+    --fonte-primaria: 'Press Start 2P', system-ui;
+    --fonte-secundaria: 'IBM Plex Mono', monospace;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CABEÇALHO */
+
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: var(--cor-secundaria);
+    width:auto;
+    height:auto;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    gap: 4rem;
+    margin-top: 6rem;
+    margin-left: 3rem;
+}
+
+/* PRODUTOS */
+.products__main {
+    font-size: 1rem;
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    text-align: center;
+    padding-top: 0.25rem;
+}
+
+.cards__main {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.50rem;
+    padding-top: 2rem;
+    height: 90%; /* altura do container do cards */
+    width: 105%; /* largura do container dos cards */
+    overflow: hidden;
+    overflow-y: scroll;
+    box-shadow: 10px 10px 10px  rgb(126, 126, 126);
+}
+
+.cards{
+    border: 0.50rem solid var(--cor-principal);
+    border-radius: 15px;
+    background-color: var(--cor-principal);
+}
+
+.cards:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    background: var(--cor-hover);
+    border-color: var(--cor-hover);
+}
+
+.img{
+    width: 14rem;
+    height: 14rem;
+}
+
+.product__name{
+    color: #ffffff;
+    font-family: var(--fonte-secundaria);
+}
+
+.price-delete{
+    color: #ffffff;
+    font-family: var(--fonte-secundaria);
+    display: flex;
+    justify-content:space-around;
+    margin-top: 4%;
+}
+
+
+/* FORMULÁRIO */
+.form {
+    font-size: 1rem;
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    padding-top: 0.25rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.products__form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    gap: 20px;
+    /* espaço entre os quadrados */
+}
+
+.formcontato__input {
+    height: 4rem;
+    width: 26rem;
+    border-radius: 30px;
+    border: 3px solid var(--cor-principal);
+    /* define a largura, o tipo e a cor da borda */
+    font-size: 16px;
+}
+
+.formcontato__botao_salvar {
+    background-color: var(--cor-principal);
+    color: #ffffff;
+    border: 3px solid var(--cor-principal);
+    /* define a largura, o tipo e a cor da borda */
+    border-radius: 15px;
+    width: 188px;
+    height: 55px;
+    font-size: 20px;
+    font-family: var(--fonte-secundaria);
+    font-weight: 500;
+}
+
+.formcontato__botao__limpar {
+    color: var(--cor-principal);
+    border: 3px solid var(--cor-principal);
+    /* define a largura, o tipo e a cor da borda */
+    border-radius: 15px;
+    width: 188px;
+    height: 55px;
+    font-size: 20px;
+    font-family: var(--fonte-secundaria);
+    font-weight: 500;
+}
+
+.formcontato__botao_salvar:hover, .formcontato__botao__limpar:hover{
+   background: var(--cor-hover);
+   border-color: var(--cor-hover);
+   -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* RODAPÉ */
+.footer {
+    background-color: var(--cor-secundaria);
+    width: auto;
+    align-items: center;
+    /*alinha o texto no centro verticalmente */
+    text-align: center;
+    /* alinha o texto 2024 no centro horizontalmente */
+    line-height: 1.5rem;
+    /* define o tamanho das linhas */
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    font-size: 1rem;
+}
+
+/* MOBILE */
+
+@media (max-width: 426px) {
+
+/* FORM */
+.main{
+    flex-direction: column-reverse;
+    align-items: center;
+    
+}
+
+.form{
+    width: 350px;
+    padding-right: 15%;
+}
+
+.formcontato__input{
+    width: 350px;
+    height: 58px;
+}
+
+.buttons {
+    display: flex;
+    gap: 1.20rem;
+    width: 350px;
+    height: 55px;
+}
+
+
+.formcontato__botao_salvar, .formcontato__botao__limpar{
+    width: 164px;
+}
+
+/* PRODUTOS */
+.products__main{
+    width: 400px;
+}
+
+.cards__main{
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    width: auto;
+    padding-right: 3rem;
+    box-shadow: none;
+}
+
+.img{
+    max-width: 165px;
+    height: 165px;
+}
+
+}

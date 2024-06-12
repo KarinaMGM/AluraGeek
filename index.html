@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--FOLHA DE ESTILO-->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="reset" href="./css/reset.css">
+
+    <title>Alura Geek</title>
+</head>
+
+<body>
+
+    <!--CABEÇALHO-->
+    <header class="header">
+        <img src="./assets/logo-coracao.png" alt="logo alurageek">
+    </header>
+
+    <main class="main">
+        <!--PRODUTOS-->
+        <section class="products__main">
+            <div class="products">
+                <h1>Meus Produtos: </h1>
+            </div>
+
+            <!-- LIST DE CARDS -->
+            <div class="cards__main" data-lista>
+                <!-- <div class="cards__card1">
+                        <img class="img" src="https://acdn.mitiendanube.com/stores/002/851/742/products/sedba6f54a1034b78807d5bd1756b864c9-fd63c4a1bf8c45ef6616777152874116-1024-1024.webp"
+                            alt="Funko Harry Potter" id="imagem"  />
+                            <h2 class="product__name">Harry Potter</h2>
+                            <div class="price-delete">    
+                            <p >R$ 50,00</p>
+                                <img src="./assets/lixo.png" alt="ícone lixeira" id="lixeira">
+                            </div>
+                    </div> -->
+            </div>
+        </section>
+
+        <!--ADD PRODUTOS-->
+        <section class="form__main">
+            <div class="form">
+                <h1 class="text">Adicionar Produto: </h1>
+                <form class="products__form" id="formulario" data-formulario>
+                    <input class="formcontato__input" type="text" id="nome" minlength="4" placeholder="   Nome..."
+                        required data-nome>
+                    <input class="formcontato__input" type="number" id="valor" minlength="4" pattern="\d{2}\,?\d{2}"
+                        placeholder="   Valor..." required data-valor>
+                    <input class="formcontato__input" type="url" id="imagem" placeholder="   Imagem..." required
+                        data-imagem>
+                    <div class="buttons">
+                        <input class="formcontato__botao_salvar" type="submit" id="guardar" value="Salvar"
+                            data-botao-salvar>
+                        <input class="formcontato__botao__limpar" type="reset" id="limpar" value="Limpar"
+                            data-botao-limpar>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <img src="./assets/logo-coracao.png" alt="logo alurageek">
+            <H2>Desenvolvido Por Karina Macedo</H2>
+            <H4>Alura Latam - 2024</H4>
+        </div>
+    </footer>
+
+    <script src="./js/mostrarProdutos.js" type="module"></script>
+    <script src="./js/criarProduto.js" type="module"></script>
+    <script src="./js/excluirProduto.js" type="module"></script>
+
+</body>
+
+
+</html>

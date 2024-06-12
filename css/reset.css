@@ -1,0 +1,54 @@
+/* Reset básico */
+
+/* Zerando margens e preenchimentos */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, figure, figcaption, hr {
+    margin: 0;
+    padding: 0;
+}
+
+/* Zerando a borda e a fonte */
+body, button, input, select, textarea {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    border: none;
+}
+
+/* Zerando a borda para imagens */
+img {
+    border-style: none;
+}
+
+/* Zerando a lista */
+ul, ol {
+    list-style: none;
+}
+
+/* Zerando outros elementos */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Zerando elementos de formulário */
+button, input, select, textarea {
+    margin: 0;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+/* Zerando cabeçalhos */
+h1, h2, h3, h4, h5, h6 {
+    font-size: 1em;
+    font-weight: normal;
+}
+
+ol, ul,li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+

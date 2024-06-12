@@ -1,0 +1,70 @@
+{
+  "produtos": [
+    {
+      "nome": "Harry Potter",
+      "valor": "50,00",
+      "imagem": "https://acdn.mitiendanube.com/stores/002/851/742/products/sedba6f54a1034b78807d5bd1756b864c9-fd63c4a1bf8c45ef6616777152874116-1024-1024.webp",
+      "id": "1"
+    },
+    {
+      "nome": "Luna Lovegood",
+      "valor": "50,00",
+      "imagem": "https://acdn.mitiendanube.com/stores/002/851/742/products/s877da8ea689b46e1a14724d2076e93a53-38ca0a67788a48711916777153082375-1024-1024.webp",
+      "id": "2"
+    },
+    {
+      "nome": "Rony Weasley",
+      "valor": "50,00",
+      "imagem": "https://acdn.mitiendanube.com/stores/002/851/742/products/s5d4453b48cac45a4ad5c9589875e15544-8c04dd0d8059188c0f16777152836829-1024-1024.webp",
+      "id": "3"
+    },
+    {
+      "nome": "Hermione Granger",
+      "valor": "50,00",
+      "imagem": "https://acdn.mitiendanube.com/stores/002/851/742/products/s5fb3f882d1854672ae53dcbb6a4fec67d-ac2ba88615789dd0ba16777152884863-1024-1024.webp",
+      "id": "4"
+    },
+    {
+      "nome": "Dobby",
+      "valor": "50,00",
+      "imagem": "https://acdn.mitiendanube.com/stores/002/851/742/products/sf4a1c829a4f341f789ef2541f07d7128t-14a73ab48c6fead6bf16777152894918-1024-1024.webp",
+      "id": "5"
+    },
+    {
+      "nome": "Lord Voldemort",
+      "valor": "50,00",
+      "imagem": "https://acdn.mitiendanube.com/stores/002/851/742/products/s0feb65a0b6e849ba88bdc9d1259c4122g-abbef940396d8e81c516777152868394-1024-1024.webp",
+      "id": "6"
+    },
+    {
+      "nome": "Draco Malfoy",
+      "valor": "50,00",
+      "imagem": "https://acdn.mitiendanube.com/stores/002/851/742/products/scb3c1fd76628401f8d7b4aed8ded8b5bm-fdae7f3621fdf0dcf016777152830805-1024-1024.webp",
+      "id": "7"
+    },
+    {
+      "nome": "Alvo Dumbledore",
+      "valor": "50,00",
+      "imagem": "https://acdn.mitiendanube.com/stores/002/851/742/products/s75dbc5c7e7d04030a9c4bc3aee82c32ez-82f8dabd10245ecb5816777152717593-1024-1024.webp",
+      "id": "8"
+    },
+    {
+      "nome": "Murta Que Geme",
+      "valor": "50,00",
+      "imagem": "https://acdn.mitiendanube.com/stores/002/851/742/products/se7a1a5599ce04f31bc596115058229d6e-3a9752f3c6bf712eea16777152899884-1024-1024.webp",
+      "id": "9"
+    },
+    {
+      "id": "8290",
+      "nome": "Sirius Black",
+      "valor": "50.00",
+      "imagem": "https://acdn.mitiendanube.com/stores/002/851/742/products/sed69810b80964eaf89dba55709598a67b-6265f7a16e41b2bee816777152969103-1024-1024.webp"
+    },
+    {
+      "id": "5713",
+      "nome": "Tonks",
+      "valor": "50.00",
+      "imagem": "https://acdn.mitiendanube.com/stores/002/851/742/products/s5244fb428c5041eab0c69b6dcc8210ffp-fb65dbab4ac1044e0316777152764854-1024-1024.webp"
+    }
+  ]
+}
