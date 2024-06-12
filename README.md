@@ -2,6 +2,7 @@
 Projeto do Programa Oracle One - AluraGeek
 
 Descrição: 
+
 Projeto para criação de uma página que cadastra produtos e os salva em uma API rest com Json-server usando NPM. O objetivo é treinar os conceitos do CRUD.
 
 Funcionalidades:
